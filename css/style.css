@@ -48,6 +48,7 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    font-weight: 600;
 }
 
 
@@ -62,8 +63,14 @@ body {
 
 #igual {
     background-color: #f5c7f7;
+    grid-row: span 2;
 }
 
 #igual:hover {
     background-color: #eba1ee;
+}
+
+#c {
+    color:  #8ef6e4;
+    font-weight: 600;
 }
